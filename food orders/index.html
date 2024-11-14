@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="flex">
+    <div class="general">
+      <div class="title">
+        Desserts
+      </div>
+      <div class="container">
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-waffle-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+            </div>
+          <p class="food-name">Waffle</p>
+          <P class="food-description">Waffle with Berries</P>
+          <p class="price">$6.50</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-creme-brulee-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Crème Brûlée</p>
+            <p class="food-description">Vanilla Bean Crème Brûlée</p>
+            <p class="price">$7.00</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-macaron-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Macaron</p>
+            <p class="food-description">Macaron Mix of Five</p>
+            <p class="price">$8.00</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-tiramisu-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Tiramisu</p>
+            <p class="food-description">Classic Tiramisu</p>
+            <p class="price">$5.50</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-baklava-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Baklava</p>
+            <p class="food-description">Pistachio Baklava</p>
+            <p class="price">$7.00</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-meringue-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Pie</p>
+            <p class="food-description">Lemon Meringue Pie</p>
+            <p class="price">$5.00</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-cake-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+            <p class="food-name">Cake</p>
+            <p class="food-description"> Red Velvet Cake</p>
+            <p class="price">$4.50</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-brownie-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+          <P class="food-name">Brownie</P>
+            <p class="food-description">Salted Caramel Brownie</p>
+            <p class="price">$6.50</p>
+        </div>
+        <div class="pay">
+          <div class="aligning">
+          <img src="./assets/images/image-panna-cotta-desktop.jpg">
+          <button class="buy" id="buyme">
+            <img class="icon-chariot" src="./assets/images/icon-add-to-cart.svg">
+          add to Cart
+            <img class="minus indec__icon" src="./assets/images/icon-decrement-quantity.svg">
+            <img class="plus indec__icon" src="./assets/images/icon-increment-quantity.svg"></button>
+          </div>
+          <P class="food-name">panna cotta</P>
+          <p class="food-description">Vanilla panna cotta</p>
+          <p class="price">$6.50</p>
+      </div>
+        
+      
+      </div>
+    </div>
+    <div class="card_info">
+    <p class="second-title">Your Cart (0)</p>
+    <img class="cookie-icon"src="./assets/images/illustration-empty-cart.svg" alt="">
+    <p class="notif">Your added items will appear here</p>
+    </div>
+  </div>
+</body>
+</html>
